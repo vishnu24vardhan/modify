@@ -34,7 +34,7 @@ public class Alerts {
 	  System.setProperty("webdriver.chrome.driver","\\D:\\DSDB_WORKSPACE\\chromedriver.exe\\");
 	  driver=new ChromeDriver();
 	  driver.get("https://demoqa.com/alerts");
-	  driver.get("http://https://www.savaari.com/");
+	 driver.manage().window().maximize();
 	  
   }
 
